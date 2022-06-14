@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz-App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="header"><span id="num"></span> Test Your Skill <span id="qus-name"></span></h2>
+            <ul id="list-content">
+                <li>
+                    <input type="radio" name="answer" id="ans1"  value="" onclick="getInputValue(this.value)" unchecked>
+                    <label for="ans1" id="answer1"> </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans1"  value="" onclick="getInputValue(this.value)" unchecked>
+                    <label for="ans1" id="answer2"> </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans1"  value="" onclick="getInputValue(this.value)" unchecked>
+                    <label for="ans1" id="answer3"> </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans1"  value="" onclick="getInputValue(this.value)" unchecked>
+                    <label for="ans1" id="answer4"></label>
+                </li>
+            </ul>
+            <div class="submit-btn">
+                <button id="submit">start</button>
+            </div>
+         <div id="show-score">
+             <div id="score">
+
+             </div>
+         </div>
+        </div>
+    </div>
+    <script  src="app.js"></script>
+</body>
+</html>
